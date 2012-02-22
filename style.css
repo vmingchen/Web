@@ -1,0 +1,35 @@
+
+#body { font-size :12 pt }
+p 		{ font-size :14 pt }
+li p 	{ font-size :56 pt }
+
+h1, h2, h3, p, li { line-height : 130% }
+
+#redwhite{ background-color : red; color : white ;}
+
+h1.center, h2.center, h3.center, h4.center, h5.center, h6.center
+    { text-align : center; color : #006600 }
+*.right {text-align:right;}
+
+
+p:first-line
+{
+		color:green;
+		font-size:30pt;
+}
+
+
+a:link {	color : #00c 	}                       /*  blue  */
+
+a:visited {	color : #300 	}                       /*  black  */
+
+a:active
+{			background-color : #919;        /*  purple  */
+			color : #333;                            /*  black  */
+			font-weight : bold;
+}
+
+a:hover
+{			background-color : black;
+			color : yellow;
+}
